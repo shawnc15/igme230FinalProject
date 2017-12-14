@@ -1,0 +1,116 @@
+body
+{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.menu
+{
+    background-color: #383838;
+    height: 100vh;
+    padding: 5px;
+    text-align: center;
+}
+.main
+{
+    background-color: white;
+    width: 100vw;
+    text-align: center;
+}
+.canvas
+{
+    border: 1px solid black;
+    height: 100vh;
+    width: auto;
+}
+
+h1
+{
+    color: white;
+}
+
+h2
+{
+    color: white;
+}
+
+input
+{
+    text-align: center;
+}
+
+#addBtn
+{
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#btns
+{
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid black;
+}
+
+#btns button
+{
+    background: #f4f4f4;
+    padding: 5px 10px;
+    border: 0;
+}
+
+#btns .fa
+{
+    font-size: 30px;
+}
+
+#btns .fa-play-circle
+{
+    color: green;
+}
+
+#btns .fa-pause-circle
+{
+    color: red;
+}
+
+#btns .fa-backward
+{
+    color: blue;
+}
+
+.shape
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    display: inline-flex;
+}
+.square
+{
+    background-color: green;
+}
+
+.circle
+{
+    background-color: cyan;
+    border-radius: 50px;
+}
+
+.rectangle
+{
+    background-color: purple;
+    width: 150px;
+}
+
+.triangle
+{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+}
