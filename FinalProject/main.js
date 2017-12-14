@@ -122,6 +122,10 @@ function applySettings()
     anime.speed = sp;
 }
 
+$("#removeBtn").click(function(){
+    $("div").remove(".shape");
+});
+
 var square = anime({
     targets: '.square',
     rotate: {

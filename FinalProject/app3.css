@@ -39,7 +39,7 @@ input
     text-align: center;
 }
 
-#addBtn, #applyBtn
+#addBtn, #applyBtn, #removeBtn
 {
     margin: 20px;
     width: 100px;
