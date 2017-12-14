@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Shawn Clark igme230 Final Project</title>
+</head>
+<body>
+    <div id="title">
+        <h1>Shawn Clark igme230 Final Project</h1>
+    </div>
+    <div id="content">
+        <div class="app">
+            <h2>Anime.js Canvas 01</h2>
+            <a href="app1.html"><img src="app1.JPG" alt="Anime.js Canvas 1"></a>
+            <p>
+                This basic application features a canvas with basic shapes animated using Anime.js.
+                Additionally, there are playback buttons above the canvas that allow you to play, 
+                pause, and reverse the animations; you can also drag the shapes around the canvas.
+            </p>
+        </div>
+        <div class="app">
+            <h2>Anime.js Canvas 02</h2>
+            <a href="app2.html"><img src="app2.JPG" alt="Anime.js Canvas 2"></a>
+            <p>
+                This application retains the functionality of the first application, but adds the ability
+                to spawn in new shapes using the options in the menu.
+            </p>
+        </div>
+        <div class="app">
+            <h2>Anime.js Canvas 03</h2>
+            <a href="app3.html"><img src="app3.JPG" alt="Anime.js Canvas 3"></a>
+            <p>
+                This application retains the functionality of the first two applications, but adds the ability to adjust
+                animation playback speed and the ability to clear the canvas of any shapes currently on it.
+            </p>
+        </div>
+        <div id="doc">
+            <h2>Documentation</h2>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+    <script>
+        anime({
+            targets: 'img',
+            translateY: [
+                {value: 10, duration: 500},
+                {value: -10, duration: 500}
+            ],
+            loop: true
+        });
+    </script>
+</body>
+</html>

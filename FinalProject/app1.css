@@ -6,6 +6,7 @@ body
 }
 .menu
 {
+    display: none;
     background-color: #383838;
     height: 100vh;
     width: auto;
@@ -82,4 +83,13 @@ body
 {
     background: purple;
     width: 150px;
+}
+
+.triangle
+{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
 }

@@ -114,3 +114,15 @@ input
 	border-right: 50px solid transparent;
 	border-bottom: 100px solid red;
 }
+
+@media screen and (max-width:500px)
+{
+    body
+    {
+        flex-direction: column;
+    }
+    .menu
+    {
+        height: auto;
+    }
+}
