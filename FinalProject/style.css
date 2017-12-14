@@ -4,6 +4,7 @@ body
     color: white;
     display: inline-flex;
     flex-direction: column;
+    font-family: 'Itim', cursive;
 }
 
 #title
@@ -31,4 +32,16 @@ img
     background-color: #3D3C3C;
     text-align: center;
     padding-bottom: 2px;
+}
+
+.doc
+{
+    background-color: #3D3C3C;
+    padding: 10px;
+    margin: 10px;
+}
+
+a
+{
+    color: white;
 }
